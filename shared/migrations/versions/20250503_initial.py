@@ -12,6 +12,7 @@ down_revision = None
 branch_labels = None
 depends_on = None
 
+
 def upgrade():
     # Create categories table
     op.create_table(
@@ -63,6 +64,7 @@ def upgrade():
         sa.PrimaryKeyConstraint('id'),
         sa.UniqueConstraint('username')
     )
+
 
 def downgrade():
     op.drop_table('users')

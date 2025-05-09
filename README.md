@@ -26,3 +26,6 @@ This is a monorepository for the News Showcase project, a dynamic news platform 
 - Add new migrations in `shared/migrations/`.
 - Update models in `shared/models/` and schemas in `shared/schemas/`.
 - Run tests: `poetry run pytest`
+
+## Notes
+- TODO: Include poetry.lock in VCS once dependencies stabilize.
